@@ -1,0 +1,6 @@
+files:
+  -/etc/rsyslog.conf 
+destination:
+  host: logs5.papertrailapp.com
+  port: 18097
+  protocol: tls
