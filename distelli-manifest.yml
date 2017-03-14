@@ -16,5 +16,5 @@ PreStart:
 
 Start:
   - sudo service rsyslog restart
-  - :sudo remote_syslog -p 35624 -d logs3.papertrailapp.com --pid-file=/var/run/remote_syslog.pid -c /etc/remote_syslog.yml
-og.con
+  - sudo remote_syslog -p 35624 -d logs3.papertrailapp.com --pid-file=/var/run/remote_syslog.pid -c /etc/remote_syslog.yml
+ 
