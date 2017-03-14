@@ -1,4 +1,4 @@
-Jepi/Papertrail:
+Jepi/Papertrail2:
 
 PkgInclude:
   - remote_syslog.yml
