@@ -2,6 +2,7 @@ Jepi/Papertrail2:
 
 PkgInclude:
   - remote_syslog.yml
+  - rsyslog.conf
 
 PostInstall:
   - wget https://github.com/papertrail/remote_syslog2/releases/download/v0.15/remote_syslog_linux_amd64.tar.gz
